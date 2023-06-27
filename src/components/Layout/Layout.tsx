@@ -7,7 +7,9 @@ export default function Layout() {
         <div className="components">
           <Navbar />
 
-          <div className="main-sections"></div>
+          <div className="main-sections" ></div>
+
+ 
         </div>
       )
 }

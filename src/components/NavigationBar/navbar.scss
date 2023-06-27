@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: red;
+
+    .nav-item {
+        font-family: 'Roboto Mono', monospace;
+        list-style: none;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        color: yellowgreen;
+
+        &:hover,
+        &:focus {
+        color: yellow;
+        }
+    }
+
+    .nav-email {
+        position: absolute;
+        right: 5px;
+        font-family: 'Roboto Mono', monospace;
+        list-style: none;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        color: yellow;
+    
+        &:hover,
+        &:focus {
+          color: yellowgreen;
+        }
+    }
+}

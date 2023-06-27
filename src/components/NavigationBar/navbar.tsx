@@ -1,4 +1,4 @@
-// import './navbar.scss';
+import './navbar.scss';
 import { navbar_links } from '../../constants/constants';
 
 export default function Navbar() {
