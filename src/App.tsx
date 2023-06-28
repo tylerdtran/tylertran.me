@@ -1,13 +1,16 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './windows/export';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>This is my website</h1>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} >
+        </Route>
+      </Routes>
+    </Router>
+  )
 }
 
 export default App;

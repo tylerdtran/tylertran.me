@@ -1,0 +1,4 @@
+// incoming packages to install 
+npm react-scroll-parallax 
+npm react-reveal 
+npm react-textup 
