@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
 
-.navbar {
-    font-family: 'Belanosima', sans-serif;
-    font-size: 2em;
+.fade {
+    position: sticky;
+    top: 0px;
+    z-index:1; //any higher integer value
 }
 
-.nav-item {
+.navbar-main-container {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 2em;
+
+}
+
+.nav-item, .nav-email {
     position: relative;
     display: block;
     cursor: pointer;

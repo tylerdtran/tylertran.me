@@ -5,7 +5,7 @@ import { Navbar } from '../exports';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="components">
+        <div className="components bg-gradient-to-r from-sky-500 to-indigo-500" >
           <Navbar /> {/* <--- This is the only component that is not a section */}
           <div className="main-sections" >{children}</div>
 
