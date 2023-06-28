@@ -2,3 +2,5 @@
 npm react-scroll-parallax 
 npm react-reveal 
 npm react-textup 
+npm react-scroll
+npm react-text-transition 
