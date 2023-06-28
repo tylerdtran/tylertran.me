@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Navbar } from '../exports';
+// import { LandingPage, About, Experience, Footer } from '../../components/exports';
 
-export default function Layout() {
+export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <div className="components">
-          <Navbar />
-
-          <div className="main-sections" ></div>
+          <Navbar /> {/* <--- This is the only component that is not a section */}
+          <div className="main-sections" >{children}</div>
 
  
         </div>

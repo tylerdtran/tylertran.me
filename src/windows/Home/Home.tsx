@@ -1,11 +1,12 @@
-import React from 'react';
-import { Layout } from '../../components/exports';
-import { Footer } from '../../components/exports';
+import { Layout, LandingPage, About, Experience, Footer, Projects } from '../../components/exports';
 
 export default function Home() {
     return (
         <Layout>
-
+            <LandingPage />
+            <About />
+            <Experience />
+            <Projects />
             <Footer />
         </Layout>
     )
