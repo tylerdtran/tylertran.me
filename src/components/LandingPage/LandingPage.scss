@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
 
-.Landing-Name, .Landing-Position {
+.Landing-Name {
     font-family: 'Abhaya Libre', serif;
     font-size: 8em;
-
+}
+.Landing-Position {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 5em;
 }
 
+
+.Landing-Image {
+    width: 20%;
+}

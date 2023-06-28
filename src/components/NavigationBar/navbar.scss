@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
+
+.navbar {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 2em;
+}
+
+.nav-item {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.nav-item:before, .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+}
+
+.nav-item:before {
+    left: -2.5px;
+}
+.nav-item:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav-item:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);   
+}
+
+.nav-item:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+
+.navbar-container {    
+    font-size: 1.2em;
+}

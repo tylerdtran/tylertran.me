@@ -24,6 +24,7 @@ export default function About(){
                 </p>
             </div>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+            {/* <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-50"> */}
                 <a href="mailto:tylerduytran@gmail.com" target='_blank' rel="noreferrer">
                     <ContactMailOutlinedIcon /> Contact Me
                 </a>

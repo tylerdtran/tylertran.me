@@ -1,12 +1,11 @@
 import './navbar.scss';
 import { navbar_links } from '../../constants/constants';
-import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+// import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 
 export default function Navbar() {
     return (
-        <div className="navbar flex items-center justify-between flex-wrap bg-teal-500 p-6 sticky top-0">
-            <AccessibilityNewIcon />
-            <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div className="navbar flex items-center space-between justify-between flex-wrap bg-teal-500 p-6 sticky top-0">
+            <div className="navbar-container w-full block flex-grow gap-4 lg:flex lg:items-center lg:w-auto">
             {/* Make this into a list that is called from the array established in constants. */}
             {navbar_links &&
               navbar_links.map(({ name }, i) => {
