@@ -1,0 +1,22 @@
+
+@mixin title-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #000;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.title-name {
+    @include title-name;
+}
+
+.project-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}

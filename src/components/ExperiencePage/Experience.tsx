@@ -1,17 +1,18 @@
-import React, { useState }from 'react';
+// import React, { useState }from 'react';/
 import './Experience.scss';
 import { work_experience } from '../../constants/constants';
+import { Slide } from 'react-awesome-reveal';
 
 export default function Experience(){
-    const [selected, setSelected] = useState(work_experience[0]);
-    const [selectedIdx, setSelectedIdx] = useState<number | undefined>();
+    // const [selected, setSelected] = useState(work_experience[0]);
+    // const [selectedIdx, setSelectedIdx] = useState<number | undefined>();
 
     return (
-        <div id="experience-main-container h-screen">
-          <div id="experience-header-container">
-            <div id="experience-header">Experience</div>
-          </div>
-          <div id="job-selection-column">
+        <div id="experience-main-container h-screen flex items-center justify-center">
+          {/* <div id="experience-header-container  text-9xl uppercase font-black"> */}
+            <h1 className="experience-header title-name uppercase">Experience</h1>
+          {/* </div> */}
+          {/* <div id="job-selection-column">
             <ul>
               {work_experience.map((experienceObj, i) => (
                 <li
@@ -38,32 +39,31 @@ export default function Experience(){
                 return <p key={i}>{description}</p>
               })}
             </div>
-          </div>
-          <div id="experience-inner-container">
+          </div> */}
+          <Slide delay={500} triggerOnce={true} className="experience-inner-container flex flex-col justify-center items-center gap-4">
             {work_experience.map(
               ({ role, image, employer, date, description }, i) => {
                 return (
-                  <div id="job-container" key={i}>
-                    <br />
-                    <h1>{role}</h1>
-                    <img id="job-image" src={image} alt={image} />
-                    <h2>{employer}</h2>
-                    <h3>{date}</h3>
-                    <div id="job-paragraph-container">
-                      {description.map((description: string, i: number) => {
-                        return <p key={i}>{description}</p>
-                      })}
+                  <div className="job-container grid grid-rows-4 grid-flow-col gap-2 border-2 border-black w-3/6" key={i}>
+                    <div className='image-container row-span-4'>
+                        <img className="job-image" src={image} alt={image} />
                     </div>
+                    <div className='information-container col-span-3'>
+                        <h1>{role}</h1>
+                        <h2>{employer}</h2>
+                        <h3>{date}</h3>
+                    </div>
+                    <div className="job-paragraph-container row-span-3 col-span-3">
+                        {description.map((description: string, i: number) => {
+                            return <p key={i}>{description}</p>
+                        })}
+                        </div>
+
                   </div>
                 )
               }
             )}
-          </div>
+          </Slide>
         </div>
-        // <div id="experience-main-container">
-        //     <div id="experience-header-container">
-        //         <h1> This is the Experience Page currently this is just a placeholder</h1>
-        //     </div>
-        // </div>
     );
 }
