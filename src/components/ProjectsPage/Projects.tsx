@@ -1,40 +1,46 @@
 import React from 'react';
 import './Projects.scss';
-import { project_links } from '../../constants/constants'
-import './Projects.scss'
+import { project_links } from '../../constants/constants';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Projects() {
   return (
-      <div className="main-container">
-            <div id="title">Projects</div>
-        <div >
+      <div className="main-container h-screen flex flex-col items-center justify-center">
+        <h1 className="title-name">Projects</h1>
+        <div className="flex flex-col justify-center items-center gap-4">
           {project_links &&
             project_links.map(
-              ({ name, description, githubURL, websiteURL, tags }) => {
+              ({ name, description, githubURL, websiteURL, image, tags }) => {
                 return (
-                    <div id="project-background">
-                      <div id="column-wrapper">
-                        <div id="project-column-1">
-                          <div id="project-title-container">
-                            <h1 id="project-title">{name}</h1>
+                    <div className="project-background border-2 border-black">
+                      <div className="column-wrapper">
+                        <div className="project-column-1">
+                          <div className="project-title-container">
+                            <h1 className="project-title">{name}</h1>
                           </div>
-                          <div id="project-description-container">
-                            <h2 id="project-description">{description}</h2>
+                          <div className="project-description-container">
+                            <h2 className="project-description">{description}</h2>
                           </div>
-                          <div id="project-tags">
+                          <div className="project-tags flex flex-row gap-4">
                             {tags.map((tag) => {
                               return (
-                                <li key={tag} className="tag">
+                                <div key={tag} className="tag">
                                   {tag}
-                                </li>
+                                </div>
                               )
                             })}
                           </div>
                         </div>
-                        <div id="project-column-2">
-                          <div id="external-link-container">
+                        <div className="project-column-2">
+                            {image && (
+                            <div id="project-vid" >
+                              <img className="project-image" src={image} alt="website"></img>
+                            </div>
+                            )}
+                          <div className="external-link-container">
                             <a
-                              id="project-github-url"
+                              className="project-github-url"
                               href={githubURL}
                               aria-label={name}
                               target="_blank"
@@ -42,7 +48,7 @@ export default function Projects() {
                             >
                             </a>
                             <a
-                              id="project-website-url"
+                              className="project-website-url"
                               href={websiteURL}
                               aria-label={name}
                               target="_blank"
@@ -50,6 +56,8 @@ export default function Projects() {
                             >
                             </a>
                           </div>
+                          <GitHubIcon />
+                          <OpenInNewIcon />
                         </div>
                       </div>
                     </div>
