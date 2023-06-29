@@ -1,6 +1,8 @@
 import React from 'react';
 import './Projects.scss';
 import { project_links } from '../../constants/constants';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Projects() {
   return (
@@ -54,6 +56,8 @@ export default function Projects() {
                             >
                             </a>
                           </div>
+                          <GitHubIcon />
+                          <OpenInNewIcon />
                         </div>
                       </div>
                     </div>

@@ -1,16 +1,18 @@
 // import React, { useState }from 'react';/
 import './Experience.scss';
 import { work_experience } from '../../constants/constants';
-import { Slide } from 'react-awesome-reveal';
+import { Slide, Reveal } from 'react-awesome-reveal';
 
 export default function Experience(){
     // const [selected, setSelected] = useState(work_experience[0]);
     // const [selectedIdx, setSelectedIdx] = useState<number | undefined>();
 
     return (
-        <div id="experience-main-container h-screen flex items-center justify-center">
+        <div className="experience-main-container h-screen flex flex-col items-center justify-center">
           {/* <div id="experience-header-container  text-9xl uppercase font-black"> */}
+          <Reveal triggerOnce={true}>
             <h1 className="experience-header title-name uppercase">Experience</h1>
+          </Reveal>
           {/* </div> */}
           {/* <div id="job-selection-column">
             <ul>
@@ -40,7 +42,7 @@ export default function Experience(){
               })}
             </div>
           </div> */}
-          <Slide delay={500} triggerOnce={true} className="experience-inner-container flex flex-col justify-center items-center gap-4">
+          <Slide direction="up" delay={500} triggerOnce={true} className="experience-inner-container flex flex-col justify-center items-center gap-4">
             {work_experience.map(
               ({ role, image, employer, date, description }, i) => {
                 return (

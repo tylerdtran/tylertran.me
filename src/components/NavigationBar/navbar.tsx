@@ -2,6 +2,8 @@ import './navbar.scss';
 import { navbar_links } from '../../constants/constants';
 import { Fade } from "react-awesome-reveal";
 // import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+import { Link } from 'react-scroll';
+
 
 export default function Navbar() {
     return (
@@ -13,11 +15,18 @@ export default function Navbar() {
                     {navbar_links &&
                     navbar_links.map(({ name }, i) => {
                         return (
-                            <Fade direction="down" cascade={true} delay={100} triggerOnce={true}>
+                            <Fade direction="down" delay={100} triggerOnce={true}>
                                 <li className="nav-item block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                                    <a href="{$name}">
-                                    {name}
-                                    </a>
+                                    <Link
+                                        activeClass="active"
+                                        to={name}
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-140}
+                                        duration={500}
+                                    >
+                                        {name}
+                                    </Link>
                                 </li>
                             </Fade>
                         )
