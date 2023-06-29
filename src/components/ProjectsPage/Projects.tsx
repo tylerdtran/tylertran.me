@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Projects() {
   return (
-      <div className="main-container h-screen flex flex-col items-center justify-center">
+      <div id="Projects" className="main-container h-screen flex flex-col items-center justify-center">
         <h1 className="title-name">Projects</h1>
         <div className="flex flex-col justify-center items-center gap-4">
           {project_links &&

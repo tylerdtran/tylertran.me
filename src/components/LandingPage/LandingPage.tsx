@@ -9,7 +9,7 @@ export default function LandingPage(){
 
     return (
         // <Parallax className="landing-inner-container flex flex-col items-center justify-center h-screen" bgImage="../../images/lake.jpeg" bgImageAlt="the cat" strength={200}>
-            <div  className="landing-inner-container flex flex-col items-center justify-center h-screen" > 
+            <div id="Home" className="landing-inner-container flex flex-col items-center justify-center h-screen" > 
                     <Fade direction="up" triggerOnce={true}>
                         <h1 className='Landing-Name text-white'>Tyler Tran</h1>
                     </Fade>

@@ -8,7 +8,7 @@ export default function Experience(){
     // const [selectedIdx, setSelectedIdx] = useState<number | undefined>();
 
     return (
-        <div className="experience-main-container h-screen flex flex-col items-center justify-center">
+        <div id="Experience" className="experience-main-container h-screen flex flex-col items-center justify-center">
           {/* <div id="experience-header-container  text-9xl uppercase font-black"> */}
           <Reveal triggerOnce={true}>
             <h1 className="experience-header title-name uppercase">Experience</h1>
