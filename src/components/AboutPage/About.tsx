@@ -50,7 +50,7 @@ export default function About(){
                 </div>
                 <Slide direction="up" triggerOnce={true}>
                 <div className='font-bold text-xl mb-2 gap-4 flex space-between'>
-                    <button className=" hover:bg-[#0A192F] text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                    <button className=" hover:bg-[#0A192F] text-white font-bold py-2 px-4 border border-blue-500 rounded">
                         <a href="mailto:tylerduytran@gmail.com" target='_blank' rel="noreferrer">
                             Contact Me
                         </a>

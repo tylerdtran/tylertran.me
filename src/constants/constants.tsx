@@ -48,14 +48,23 @@ const work_experience = [
         image: MeristreamLogo,
         employer: 'Meristream, Inc.',
         date: 'June 2023 - Present',
-        description: ['lorem ipsum']
+        description: [
+            '• Co-Founder and the lone Full-Stack Developer for the Meristream web and mobile application.',
+            '• Established an eccommerce service using the Shoppay API and NoSQL database to manage user subscriptions/device logins.',
+            '• Implemented the Front-End Design of the Meristream web application using Next.js, TypeScript, and Sass.',
+            '• Devised a lightweight portable software solution for the robust music algorithm developed by Co-Founder/Composer Aidan Vass'
+        ]
     },
     {
         role: 'Front-End Developer',
         image: TeachLA,
         employer: 'ACM TeachLA @ UCLA', 
         date: 'April 2023 - Present',
-        description: ['lorem ipsum']
+        description: [
+            '• Developed engaging web modules about the topic of recursion utilizing Typescript and SCSS to enhance interactive learning experiences for high school students.', 
+            '• Worked under strategic and rigorous sprint plans for both my individual and group projects, ensuring timely completion of tasks.',
+            '• Leveraged git/github for robust pull request monitoring and maintaining code integrity.'
+        ]
     }
 ]
 
@@ -63,7 +72,7 @@ const project_links = [
     
     {
         name: 'Meristream',
-        description: 'Meristream is a subscription music streaming service that allows for you to play sonically rich spa music at a fraction of the cost of other services.',
+        description: 'Meristream is a subscription music streaming service that allows for you to play endlesss streams of sonically rich music at a fraction of the cost of other services.',
         githubURL: 'https://github.com/tylerdtran/meristream',
         websiteURL: 'https://github.com/tylerdtran/meristream',
         image: MeristreamSite,

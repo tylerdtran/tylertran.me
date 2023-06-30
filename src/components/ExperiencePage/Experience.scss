@@ -17,7 +17,7 @@
 
 
   #experience-main-container {
-    width: 900px;
+    width: 950px;
     border-radius: 0.75em;
 
     @media (max-width: 920px) {
@@ -80,8 +80,10 @@
       #experience-image-container {
         margin: 27px 10px 10px 10px;
         #experience-image {
-          width: 80px;
-          height: 80px;
+          min-width: 80px;
+          min-height: 80px;
+          max-width: 80px;
+          max-height: 80px;
         }
       }
 
@@ -91,19 +93,20 @@
         #experience-title {
           margin: 0px 10px 0px 10px;
          color: $themeBlack;
-          font-size: 19px;
+          font-size: 2em;
           font-family: 'Belanosima', sans-serif;
         }
 
         #experience-employer {
           margin: 0px 10px 10px 10px;
           color: $themeBlack;
-          font-size: 17px;
+          font-size: 1.5em;
           font-family: 'Belanosima', sans-serif;
         }
 
         #experience-date {
           @include paragraph-gray-text;
+          font-size: 1.25em;
           margin: 10px 10px 10px 10px;
           font-family: 'Belanosima', sans-serif;
         }
