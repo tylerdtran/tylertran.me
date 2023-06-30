@@ -4,3 +4,6 @@ npm react-reveal
 npm react-textup 
 npm react-scroll
 npm react-text-transition 
+
+Inspiration 
+// https://v4.brittanychiang.com/

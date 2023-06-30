@@ -7,6 +7,7 @@ import './Experience.scss'
 
 export const Experience = () => {
   return (
+    <div id="Experience">
     <div id="outer-experience-container">
       <Fade direction="up" triggerOnce={true}>
         <div id="experience-main-container">
@@ -36,6 +37,7 @@ export const Experience = () => {
           ))}
         </div>
       </Fade>
+    </div>
     </div>
   )
 }
