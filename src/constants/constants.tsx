@@ -5,6 +5,7 @@ import MeristreamLogo from '../images/Meristream-logo.png';
 import Retainify from '../images/Retainify-presentation.png';
 import MeristreamSite from '../images/meristream.png';
 import BruinClubSite from '../images/BruinClubSite.png';
+import PortfolioWebsite from '../images/TylerTranWebsite.png';
 
 // create an array of constants for the navbar
 const navbar_links = [ 
@@ -34,6 +35,10 @@ const network_links = [
     {
         name: 'Email',
         url: 'mailto:tylerduytran@gmail.com'
+    },
+    {
+        name: 'Facebook',
+        url: 'mailto:tylerduytran@gmail.com'
     }
 ]
 
@@ -55,6 +60,7 @@ const work_experience = [
 ]
 
 const project_links = [
+    
     {
         name: 'Meristream',
         description: 'lorem ipsum',
@@ -62,6 +68,14 @@ const project_links = [
         websiteURL: 'https://github.com/tylerdtran/meristream',
         image: MeristreamSite,
         tags: ['Next.js', 'Vercel', 'MongoDB', 'TypeScript', 'Sass']
+    },
+    {
+        name: 'Portfolio Website',
+        description: 'lorem ipsum',
+        githubURL: 'https://github.com/tylerdtran/tylertran.me',
+        websiteURL: 'https://github.com/tylerdtran/tylertran.me',
+        image: PortfolioWebsite,
+        tags: ['React.js', 'TypeScript', 'Sass', 'Node.js', 'Tailwind CSS']
     },
     {  
         name: 'Retainify',

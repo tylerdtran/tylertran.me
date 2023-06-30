@@ -2,3 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
 
 
+$font-size-large: 1.2rem;
+$font-size-normal: 1rem;
+$font-size-small: 0.8rem;
+
+$themeBlueForeground: #292d3e;
+$themeBlueBackground: #1b1e2b;
+$themeGreen: #689775;
+$themeGreenDark: #12422d;
+$themeRed: #c7493a;
+$themeRedHover: #cf3c2c;
+$themePurple: #c777a7;
+$themeYellow: #ffcb6b;
+$themeYellowHover: #e5b355;
+$themeGray: #a6acb2;
+$themeWhite: #f0f0f0;
+$themeSilver: #7d8491;
+$themeDarkGray: #3e505b;
+$themeOrange: #fc7233;
+$themeLightBlue: #659dbd;
+$themeLightYellow: #fbeec1;
+$themeBlack: #161616;
+
+$screen-small: 400px;
+$screen-medium: 1000px;
+$screen-large: 1400px;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin section-header-red {
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: $themeRed;
+}
+
+@mixin paragraph-gray-text {
+  color: rgb(138, 138, 138);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  line-height: 25px;
+  font-family: 'Cairo', sans-serif;
+}

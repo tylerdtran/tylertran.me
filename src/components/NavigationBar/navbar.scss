@@ -4,6 +4,9 @@
     position: fixed;
     z-index:2; //any higher integer value
     background-color: #c6d5c6;
+    // background-color: #AA96DA;
+    // background-color: #ADD8E6;
+    background-color: #c0d0c0;
     
 }
 
@@ -13,10 +16,12 @@
 
 }
 
+
 .nav-item, .nav-email {
     position: relative;
     display: block;
     cursor: pointer;
+    // color:  #3A6B35;
 }
 
 .nav-item:before, .nav-item:after {
@@ -52,4 +57,21 @@
 
 .navbar-container {    
     font-size: 1.2em;
+
+    // @media (max-width: 725px) {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     font-size: 2em;
+    //   }
+
+    @media (max-width: 425px) {
+        font-size: 1.5em;
+      }
+}
+
+.nav-email {
+    @media (max-width: 1024px) {
+        display: none;
+      }
 }

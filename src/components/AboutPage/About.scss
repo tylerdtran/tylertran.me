@@ -21,6 +21,32 @@
 
 .general-text {
     font-family: 'Belanosima', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 
+}
+
+#about-title-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    &:before {
+      content: '';
+      margin-top: 30px;
+      margin-right: 10px;
+      display: block;
+      width: 20%;
+      height: 2px;
+      background-color: #fffff0;
+    }
+
+    &:after {
+      content: '';
+      margin-top: 30px;
+      margin-left: 10px;
+      display: block;
+      width: 70%;
+      height: 2px;
+      background-color: #fffff0;
+    }
 }
