@@ -1,12 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
+@mixin mobile-title-sizing {
+    @media (max-width: 950px) {
+        font-size: 8em;
+      }
 
+      @media (max-width: 770px) {
+        font-size: 7em;
+      }
+
+      @media (max-width: 600px) {
+        margin-left: 10px;
+        font-size: 6em;
+      }
+
+      @media (max-width: 530px) {
+        font-size: 5em;
+      }
+
+      @media (max-width: 455px) {
+        font-size: 4em;
+      }
+}
 .Landing-Name {
     font-family: 'Abhaya Libre', serif;
     font-size: 8em;
+    color: black;
+    @include mobile-title-sizing;
+
+}
+@mixin mobile-position-sizing {
+    @media (max-width: 950px) {
+        font-size: 5em;
+      }
+
+      @media (max-width: 770px) {
+        font-size: 4em;
+      }
+
+      @media (max-width: 600px) {
+        margin-left: 10px;
+        font-size: 3em;
+      }
+
+      @media (max-width: 530px) {
+        font-size: 2.5em;
+      }
+
+      @media (max-width: 455px) {
+        font-size: 2em;
+      }
 }
 .Landing-Position {
     font-family: 'Belanosima', sans-serif;
     font-size: 5em;
+    color: rgba(0, 0, 0, 0.75);
+    @include mobile-position-sizing;
 }
 
 

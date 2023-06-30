@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
+@import '../../constants/constants.scss';
+
 
 .about-title {
     font-family: 'Abhaya Libre', serif;
@@ -49,4 +51,9 @@
     //   height: 2px;
     //   background-color: #fffff0;
     // }
+}
+.components {
+    @media (max-width: 600px) {
+        width: 80%;
+      }
 }

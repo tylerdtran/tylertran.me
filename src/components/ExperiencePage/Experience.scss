@@ -14,8 +14,11 @@
   align-items: center;
   margin-top: 325px;
 
+
+
   #experience-main-container {
     width: 900px;
+    border-radius: 0.75em;
 
     @media (max-width: 920px) {
       width: 50%;
@@ -26,12 +29,20 @@
     @media (max-width: 700px) {
       width: 95%;
     }
+    // experience-object-containers {
+    //     border-radius: 0.75em;
+    // }
+    .experience-object-containers {
+        border-radius: 0.75em;
+        overflow: hidden;
+    }
 
     #experience-header-container {
       display: flex;
       flex-direction: row;
       text-align: center;
       margin-bottom: 15px;
+      justify-content: center;
 
     //   &:before {
     //     content: '';
@@ -61,7 +72,10 @@
     #experience-object-container {
       display: flex;
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      background-color: rgba(15, 15, 15, 0.9);
+    //   background-color: rgba(15, 15, 15, 0.9);
+    //   background-color: rgba(192, 208, 192, 1);
+      // what is background-color: #c0d0c0; in rgba?
+      background-color: rgba(182, 198, 182, 1);
 
       #experience-image-container {
         margin: 27px 10px 10px 10px;
@@ -73,16 +87,17 @@
 
       #experience-text-container {
         margin: 15px 0px 15px 0px;
+
         #experience-title {
           margin: 0px 10px 0px 10px;
-         color: $themeWhite;
+         color: $themeBlack;
           font-size: 19px;
           font-family: 'Belanosima', sans-serif;
         }
 
         #experience-employer {
           margin: 0px 10px 10px 10px;
-          color: $themeYellow;
+          color: $themeBlack;
           font-size: 17px;
           font-family: 'Belanosima', sans-serif;
         }

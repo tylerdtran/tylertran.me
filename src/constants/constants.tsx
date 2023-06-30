@@ -63,7 +63,7 @@ const project_links = [
     
     {
         name: 'Meristream',
-        description: 'lorem ipsum',
+        description: 'Meristream is a subscription music streaming service that allows for you to play sonically rich spa music at a fraction of the cost of other services.',
         githubURL: 'https://github.com/tylerdtran/meristream',
         websiteURL: 'https://github.com/tylerdtran/meristream',
         image: MeristreamSite,
@@ -71,7 +71,7 @@ const project_links = [
     },
     {
         name: 'Portfolio Site',
-        description: 'This website was built by Tyler Tran. I built this website using React, TypeScript, and Sass. I used Tailwind CSS and MaterialUI for styling. I used React awesome reveal for transitions and animations. ',
+        description: 'This Portfolio website was built by Tyler Tran. I built this website using React, TypeScript, and Sass. I used Tailwind CSS and MaterialUI for styling. I used React awesome reveal for transitions and animations. ',
         githubURL: 'https://github.com/tylerdtran/tylertran.me',
         websiteURL: 'https://github.com/tylerdtran/tylertran.me',
         image: PortfolioWebsite,
@@ -79,7 +79,7 @@ const project_links = [
     },
     {  
         name: 'Retainify',
-        description: 'lorem ipsum',
+        description: 'Retainify seamlessly integrates into your student workflow by taking your class notes and automically generating free-response review questions from the Cohere AI Large Language Models 🧠. ',
         githubURL: 'https://github.com/tylerdtran/Retainify',
         websiteURL: 'https://github.com/tylerdtran/Retainify',
         image: Retainify,

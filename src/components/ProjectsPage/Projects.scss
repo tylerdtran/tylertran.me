@@ -40,6 +40,7 @@
       display: flex;
       flex-direction: row;
       text-align: center;
+      justify-content: center;
 
     //   &:before {
     //     content: '';
@@ -122,6 +123,7 @@
               background-color: rgba(18, 18, 18, 0.9);
               position: relative;
               box-shadow: 0 20px 20px 5px rgba(0, 0, 0, .1);
+              border-radius: 0.3125em;
 
               #project-description {
                 @include paragraph-gray-text;
@@ -156,6 +158,10 @@
               right: 50px;
               box-shadow: 0 20px 20px 2px rgba(0, 0, 0, .1);
               transition: 1s;
+              border-radius: 0.75em;
+              overflow: hidden;
+
+
             
 
               @media (max-width: 1150px) {

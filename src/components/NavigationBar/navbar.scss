@@ -3,7 +3,7 @@
 .fade {
     position: fixed;
     z-index:2; //any higher integer value
-    background-color: #c6d5c6;
+    // background-color: #c6d5c6;
     // background-color: #AA96DA;
     // background-color: #ADD8E6;
     background-color: #c0d0c0;
@@ -66,7 +66,10 @@
     //   }
 
     @media (max-width: 425px) {
-        font-size: 1.5em;
+        font-size: 0.75em;
+      }
+    @media (max-width: 375px) {
+        font-size: 0.5em;
       }
 }
 

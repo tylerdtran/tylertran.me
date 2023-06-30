@@ -14,27 +14,29 @@ export const Experience = () => {
           <div id="experience-header-container">
             <div className="experience-name" id="experience-header">Experience</div>
           </div>
-          {work_experience.map((experienceObj, i) => (
-            <div key={i} id="experience-object-container">
-              <div id="experience-image-container">
-                {experienceObj.image && (
-                  <img id="experience-image" src={experienceObj.image} alt="experience-proj"/>
-                )}
-              </div>
-              <div id="experience-text-container">
-                <div id="experience-title">{experienceObj.role}</div>
-                <div id="experience-employer">{experienceObj.employer}</div>
-                <div id="experience-date">{experienceObj.date}</div>
-                {experienceObj.description.map((description, i) => {
-                  return (
-                    <div key={i} id="experience-description">
-                      {description}
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          ))}
+          <div className="experience-object-containers rounded-2xl">
+            {work_experience.map((experienceObj, i) => (
+                <div key={i} id="experience-object-container">
+                <div id="experience-image-container">
+                    {experienceObj.image && (
+                    <img id="experience-image" src={experienceObj.image} alt="experience-proj"/>
+                    )}
+                </div>
+                <div id="experience-text-container">
+                    <div id="experience-title">{experienceObj.role}</div>
+                    <div id="experience-employer">{experienceObj.employer}</div>
+                    <div id="experience-date">{experienceObj.date}</div>
+                    {experienceObj.description.map((description, i) => {
+                    return (
+                        <div key={i} id="experience-description">
+                        {description}
+                        </div>
+                    )
+                    })}
+                </div>
+                </div>
+            ))}
+          </div>
         </div>
       </Fade>
     </div>
