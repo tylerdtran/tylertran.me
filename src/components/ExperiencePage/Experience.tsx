@@ -9,39 +9,11 @@ export default function Experience(){
 
     return (
         <div id="Experience" className="experience-main-container h-screen flex flex-col items-center justify-center">
-          {/* <div id="experience-header-container  text-9xl uppercase font-black"> */}
-          <Reveal triggerOnce={true}>
-            <h1 className="experience-header title-name uppercase">Experience</h1>
+          {/* <div id=""> */}
+          <Reveal className="experience-header-container" triggerOnce={true}>
+            <h1 className="experience-header experience-name uppercase">Experience</h1>
           </Reveal>
-          {/* </div> */}
-          {/* <div id="job-selection-column">
-            <ul>
-              {work_experience.map((experienceObj, i) => (
-                <li
-                  key={i}
-                  onClick={() => {
-                    setSelected(experienceObj)
-                    setSelectedIdx(i)
-                  }}
-                  id={`job-title-container-${
-                    selected.employer === experienceObj.employer
-                  }`}
-                >
-                  <div id="employer-text">{experienceObj.employer}</div>
-                </li>
-              ))}
-            </ul>
-            <hr id={`selected-index-${selectedIdx}`} />
-            <div id="experience-column">
-              <div>
-                <h1>{selected.role}</h1>
-                <h2>{selected.date}</h2>
-              </div>
-              {selected.description.map((description: string, i: number) => {
-                return <p key={i}>{description}</p>
-              })}
-            </div>
-          </div> */}
+
           <Slide direction="up" delay={500} triggerOnce={true} className="experience-inner-container flex flex-col justify-center items-center gap-4">
             {work_experience.map(
               ({ role, image, employer, date, description }, i) => {

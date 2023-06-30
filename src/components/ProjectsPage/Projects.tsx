@@ -3,16 +3,20 @@ import './Projects.scss';
 import { project_links } from '../../constants/constants';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Projects() {
   return (
       <div id="Projects" className="main-container h-screen flex flex-col items-center justify-center">
-        <h1 className="title-name">Projects</h1>
+        <Fade>
+            <h1 className="title-name">Projects</h1>
+        </Fade>
         <div className="flex flex-col justify-center items-center gap-4">
           {project_links &&
             project_links.map(
               ({ name, description, githubURL, websiteURL, image, tags }) => {
                 return (
+                    <Slide direction="right" triggerOnce={true}>
                     <div className="project-background border-2 border-black">
                       <div className="column-wrapper">
                         <div className="project-column-1">
@@ -61,6 +65,7 @@ export default function Projects() {
                         </div>
                       </div>
                     </div>
+                    </Slide>
                 )
               }
             )}

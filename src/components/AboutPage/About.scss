@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Belanosima&display=swap');
 
+.about-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 8em;
+    
+}
+
 @mixin title-name {
     font-size: 3rem;
     font-weight: 700;
@@ -9,6 +15,12 @@
     letter-spacing: 0.2rem;
     font-family: 'Belanosima', sans-serif;
 }
-.title-name {
+.about-name{
     @include title-name;
+}
+
+.general-text {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 2em;
+
 }
