@@ -40,6 +40,7 @@
       display: flex;
       flex-direction: row;
       text-align: center;
+      justify-content: center;
 
     //   &:before {
     //     content: '';
@@ -70,6 +71,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 40px;
+
 
       #project-background {
         margin-bottom: 110px;
@@ -108,9 +110,9 @@
               margin-top: 35px;
 
             //   #project-title {
-            //     font-family: 'Vollkorn', serif;
+            //     // font-family: 'Vollkorn', serif;
             //     margin: 0 10px 0 10px;
-            //     font-size: 34px;
+            //     // font-size: 34px;
             //     color: $themeRed;
             //     margin-bottom: 15px;
             //   }
@@ -120,6 +122,8 @@
               position: relative;
               background-color: rgba(18, 18, 18, 0.9);
               position: relative;
+              box-shadow: 0 20px 20px 5px rgba(0, 0, 0, .1);
+              border-radius: 0.3125em;
 
               #project-description {
                 @include paragraph-gray-text;
@@ -148,10 +152,17 @@
               width: 95%;
             }
 
-            #project-vid {
+            .project-vid {
               position: relative;
               width: 100%;
               right: 50px;
+              box-shadow: 0 20px 20px 2px rgba(0, 0, 0, .1);
+              transition: 1s;
+              border-radius: 0.75em;
+              overflow: hidden;
+
+
+            
 
               @media (max-width: 1150px) {
                 right: 0px;

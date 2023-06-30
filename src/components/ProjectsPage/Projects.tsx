@@ -7,6 +7,7 @@ import './Projects.scss'
 
 export default function Projects() {
   return (
+    <div id="Projects">
     <div id="outer-project-container" >
       <div id="main-container">
         <Fade direction="up" triggerOnce={true}>
@@ -41,7 +42,7 @@ export default function Projects() {
                         </div>
                         <div id="project-column-2">
                           {image && (
-                            <div id="project-vid">
+                            <div className="project-vid bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-75 transition duration-150 ease-in-out hover:opacity-100">
                               <img src={image} alt="project"></img>
                             </div>
                           )}
@@ -74,6 +75,7 @@ export default function Projects() {
             )}
         </div>
       </div>
+    </div>
     </div>
   )
 }

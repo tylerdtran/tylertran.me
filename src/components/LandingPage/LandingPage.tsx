@@ -13,7 +13,7 @@ export default function LandingPage(){
                         <h1 className='Landing-Name text-white'>Tyler Tran</h1>
                     </Fade>
                     <Fade direction="up" triggerOnce={true} delay={500} duration={1500}>
-                        <h2 className='Landing-Position'>Software Engineer</h2>
+                        <h2 className='Landing-Position '>Software Engineer</h2>
                     </Fade>
             </div> 
         </div>

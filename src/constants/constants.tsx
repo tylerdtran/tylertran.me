@@ -48,14 +48,23 @@ const work_experience = [
         image: MeristreamLogo,
         employer: 'Meristream, Inc.',
         date: 'June 2023 - Present',
-        description: ['lorem ipsum']
+        description: [
+            '• Co-Founder and the lone Full-Stack Developer for the Meristream web and mobile application.',
+            '• Established an eccommerce service using the Shoppay API and NoSQL database to manage user subscriptions/device logins.',
+            '• Implemented the Front-End Design of the Meristream web application using Next.js, TypeScript, and Sass.',
+            '• Devised a lightweight portable software solution for the robust music algorithm developed by Co-Founder/Composer Aidan Vass'
+        ]
     },
     {
         role: 'Front-End Developer',
         image: TeachLA,
         employer: 'ACM TeachLA @ UCLA', 
         date: 'April 2023 - Present',
-        description: ['lorem ipsum']
+        description: [
+            '• Developed engaging web modules about the topic of recursion utilizing Typescript and SCSS to enhance interactive learning experiences for high school students.', 
+            '• Worked under strategic and rigorous sprint plans for both my individual and group projects, ensuring timely completion of tasks.',
+            '• Leveraged git/github for robust pull request monitoring and maintaining code integrity.'
+        ]
     }
 ]
 
@@ -63,15 +72,15 @@ const project_links = [
     
     {
         name: 'Meristream',
-        description: 'lorem ipsum',
+        description: 'Meristream is a subscription music streaming service that allows for you to play endlesss streams of sonically rich music at a fraction of the cost of other services.',
         githubURL: 'https://github.com/tylerdtran/meristream',
         websiteURL: 'https://github.com/tylerdtran/meristream',
         image: MeristreamSite,
         tags: ['Next.js', 'Vercel', 'MongoDB', 'TypeScript', 'Sass']
     },
     {
-        name: 'Portfolio Website',
-        description: 'lorem ipsum',
+        name: 'Portfolio Site',
+        description: 'This Portfolio website was built by Tyler Tran. I built this website using React, TypeScript, and Sass. I used Tailwind CSS and MaterialUI for styling. I used React awesome reveal for transitions and animations. ',
         githubURL: 'https://github.com/tylerdtran/tylertran.me',
         websiteURL: 'https://github.com/tylerdtran/tylertran.me',
         image: PortfolioWebsite,
@@ -79,7 +88,7 @@ const project_links = [
     },
     {  
         name: 'Retainify',
-        description: 'lorem ipsum',
+        description: 'Retainify seamlessly integrates into your student workflow by taking your class notes and automically generating free-response review questions from the Cohere AI Large Language Models 🧠. ',
         githubURL: 'https://github.com/tylerdtran/Retainify',
         websiteURL: 'https://github.com/tylerdtran/Retainify',
         image: Retainify,
@@ -87,7 +96,7 @@ const project_links = [
     },
     {  
         name: 'BruinClub',
-        description: 'lorem ipsum',
+        description: 'BClub revolutionizes the way Bruins and clubs at UCLA connect by providing a cutting-edge platform. It offers an intuitive interface for club profile pages, seamless event calendars, convenient club interest forms, and robust search and filtering capabilities.',
         githubURL: 'https://github.com/tylerdtran/BClub',
         websiteURL: 'https://astounding-chebakia-393e9f.netlify.app/',
         image: BruinClubSite,
@@ -96,3 +105,4 @@ const project_links = [
 ]
 
 export { navbar_links, network_links, work_experience, project_links }
+ 
