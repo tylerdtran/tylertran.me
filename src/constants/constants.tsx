@@ -1,5 +1,3 @@
-
-// import SCC from '../images/SCC-logo.png';
 import TeachLA from '../images/TeachLA-logo.png';
 import MeristreamLogo from '../images/Meristream-logo.png';
 import Retainify from '../images/Retainify-presentation.png';
@@ -82,9 +80,9 @@ const project_links = [
         name: 'Portfolio Site',
         description: 'This Portfolio website was built by Tyler Tran. I built this website using React, TypeScript, and Sass. I used Tailwind CSS and MaterialUI for styling. I used React awesome reveal for transitions and animations. ',
         githubURL: 'https://github.com/tylerdtran/tylertran.me',
-        websiteURL: 'https://github.com/tylerdtran/tylertran.me',
+        websiteURL: 'https://www.tylertran.me/',
         image: PortfolioWebsite,
-        tags: ['React.js', 'TypeScript', 'Sass', 'Node.js', 'Tailwind CSS']
+        tags: ['React.js', 'TypeScript', 'Sass', 'Vercel', 'Tailwind CSS']
     },
     {  
         name: 'Retainify',

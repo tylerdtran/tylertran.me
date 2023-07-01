@@ -7,3 +7,4 @@ npm react-text-transition
 
 Inspiration 
 // https://v4.brittanychiang.com/
+// https://braydenwerner.me/
