@@ -14,7 +14,9 @@
 .navbar-main-container {
     font-family: 'Belanosima', sans-serif;
     font-size: 2em;
-
+    @media (max-width: 500px) {
+        font-size: 1.2em;
+      }
 }
 
 
@@ -56,25 +58,12 @@
     transition: 0s;
 }
 
-.navbar-container {    
-    font-size: 1.2em;
-
-    // @media (max-width: 725px) {
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //     font-size: 2em;
-    //   }
-
-}
-.nav-item {
-    @media (max-width: 425px) {
-        font-size: 12px;
-      }
-}
-
 .nav-email {
     @media (max-width: 1024px) {
         display: none;
-      }
+        }
 }
+
+
+
+
