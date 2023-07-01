@@ -5,7 +5,9 @@
 .about-title {
     font-family: 'Abhaya Libre', serif;
     font-size: 8em;
-    
+    @media (max-width: 700px) {
+        font-size: 4em;
+      }
 }
 
 @mixin title-name {
@@ -19,6 +21,9 @@
 }
 .about-name{
     @include title-name;
+    @media (max-width: 700px) {
+        font-size: 2em;
+      }
 }
 
 .general-text {
@@ -31,6 +36,15 @@
     display: flex;
     flex-direction: row;
     text-align: center;
+    @media (max-width: 920px) {
+        width: 50%;
+      }
+      @media (max-width: 965px) {
+        width: 85%;
+      }
+      @media (max-width: 700px) {
+        width: 95%;
+      }
 
     // &:before {
     //   content: '';
@@ -52,7 +66,7 @@
     //   background-color: #fffff0;
     // }
 }
-.components {
+.about-components {
     @media (max-width: 600px) {
         width: 80%;
       }

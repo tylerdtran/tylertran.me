@@ -7,14 +7,14 @@ import './Experience.scss'
 
 export const Experience = () => {
   return (
-    <div id="Experience">
-    <div id="outer-experience-container">
-      <Fade direction="up" triggerOnce={true}>
+    <div id="Experience" >
+    <div className="outer-experience-container" id="outer-experience-container">
+      <Fade className="flex justify-center align-center" direction="up" triggerOnce={true}>
         <div id="experience-main-container">
           <div id="experience-header-container">
             <div className="experience-name" id="experience-header">Experience</div>
           </div>
-          <div className="experience-object-containers rounded-2xl">
+          <div className="experience-object rounded-2xl">
             {work_experience.map((experienceObj, i) => (
                 <div key={i} id="experience-object-container">
                 <div id="experience-image-container">

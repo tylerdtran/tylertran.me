@@ -6,10 +6,10 @@ import { SocialSideBar } from '../exports';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="components bg-[#c6d5c6]" >
+        <div className="components w-full bg-[#c6d5c6]" >
           <Navbar /> {/* <--- This is the only component that is not a section */}
           <SocialSideBar />
-          <div className="main-sections" >{children}</div>
+          <div className="main-sections w-screen" >{children}</div>
 
  
         </div>

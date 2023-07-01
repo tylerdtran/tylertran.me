@@ -12,7 +12,7 @@ export default function Navbar() {
 
     return (
 
-        <Fade className="fade w-full" direction="down" duration={1000} triggerOnce={true} >
+        <Fade className="fade w-screen md:w-full" direction="down" duration={1000} triggerOnce={true} >
             <div className="navbar-main-container flex items-center space-between flex-start bg-grey p-6 ">
                 <div className="navbar-container w-full block flex-grow md:gap-4 flex items-center w-auto">
                     {/* Make this into a list that is called from the array established in constants. */}

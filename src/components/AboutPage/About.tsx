@@ -9,7 +9,7 @@ export default function About(){
     return (
         <div id="About" className="lg:h-screen flex flex-col justify-center items-center md:h-min ">
            
-            <div className="components flex flex-col items-center w-5/6 md:w-3/6 ">
+            <div className="about-components flex flex-col items-center w-5/6 md:w-3/6 ">
                 <Reveal triggerOnce={true}>
                     <div id="about-title-container">
                         <h1 className="text-8xl about-title">About</h1>
