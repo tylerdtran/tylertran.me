@@ -1,46 +1,23 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Hi, I'm Tyler Tran and this is my portfolio website. I built this website using typescript, react.js, sass and vercel for hosting. 
+This website realistically began a little less than 3 years ago. I was fresh off of building my first ever website using html, css,
+and a little bit of javascript (realistically i had no idea what i was doing w/ JS and still don't really). I won't lie vanilla 
+javascript is not for me lol. But basically, I was in the process of building a portfolio website. I copied some code off of github 
+from an at the time, "small youtuber" called codegrid who created amazing, dramatic website templates and surely I thought it would be 
+super easy to build my own websites. However, I soon became overwhelmed with the endless possibility of what I could do and by how long 
+the entire process would take using the classic html, css, and javascript tech stack. I didn't dare delve into react or any javascript framework
+fearing that the learning curve would be too difficult, but realistically I think I just wasn't mature or ambitious enough to learning 
+a front-end framework, which in hindsight, had I decided to put the effort to learn react, would reduce the project time of the portfolio website
+significantly. But thinking back, I just wasn't ready and I guess 3 years later as a college student fresh off of his second year, now I was. 
+I made this website literally in 5 days. Thinking back I projected it to take 2 weeks and it just really proves to me that how much more 
+productive I am when I enjoy the process of creation and building step-by-step. I really do hope to come back to this website and look to add 
+additional features and cleanup some of the little details to further refine my project. But for now I hope you enjoy it! 
+To run the website locally, clone the project:
+Move into the directory of the project 
+Then run 
+```
+npm install 
+```
+Then run 
+```
+npm start
+```
