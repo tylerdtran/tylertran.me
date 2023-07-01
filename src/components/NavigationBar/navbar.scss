@@ -66,11 +66,10 @@
     //     font-size: 2em;
     //   }
 
+}
+.nav-item {
     @media (max-width: 425px) {
-        font-size: 0.75em;
-      }
-    @media (max-width: 375px) {
-        font-size: 0.5em;
+        font-size: 12px;
       }
 }
 

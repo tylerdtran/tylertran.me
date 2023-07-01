@@ -8,7 +8,7 @@ import './Projects.scss'
 export default function Projects() {
   return (
     <div id="Projects">
-    <div id="outer-project-container" >
+    <div id="outer-project-container">
       <div id="main-container">
         <Fade direction="up" triggerOnce={true}>
           <div id="title-container">
