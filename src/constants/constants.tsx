@@ -44,13 +44,13 @@ const work_experience = [
     {
         role: 'Co-Founder/Software Engineer',
         image: MeristreamLogo,
-        employer: 'Meristream, Inc.',
+        employer: 'Meristream, LLC.',
         date: 'June 2023 - Present',
         description: [
             '• Co-Founder and the lone Full-Stack Developer for the Meristream web and mobile application.',
             '• Established an eccommerce service using the Shoppay API and NoSQL database to manage user subscriptions/device logins.',
             '• Implemented the Front-End Design of the Meristream web application using Next.js, TypeScript, and Sass.',
-            '• Devised a lightweight portable software solution for the robust music algorithm developed by Co-Founder/Composer Aidan Vass'
+            '• Co-assisted my fellow Co-Founder/Composer Aidan Vass, in the development of the Spa Music Algorithm using RNBO software'
         ]
     },
     {
@@ -74,7 +74,7 @@ const project_links = [
         githubURL: 'https://github.com/tylerdtran/meristream',
         websiteURL: 'https://github.com/tylerdtran/meristream',
         image: MeristreamSite,
-        tags: ['Next.js', 'Vercel', 'MongoDB', 'TypeScript', 'Sass']
+        tags: ['Next.js', 'PostgreSQL', 'Prisma ORM', 'React.js', 'Stripe API', 'Supabase']
     },
     {
         name: 'Portfolio Site',
