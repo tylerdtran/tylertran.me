@@ -1,23 +1,46 @@
-Hi, I'm Tyler Tran and this is my portfolio website. I built this website using typescript, react.js, sass and vercel for hosting. 
-This website realistically began a little less than 3 years ago. I was fresh off of building my first ever website using html, css,
-and a little bit of javascript (realistically i had no idea what i was doing w/ JS and still don't really). I won't lie vanilla 
-javascript is not for me lol. But basically, I was in the process of building a portfolio website. I copied some code off of github 
-from an at the time, "small youtuber" called codegrid who created amazing, dramatic website templates and surely I thought it would be 
-super easy to build my own websites. However, I soon became overwhelmed with the endless possibility of what I could do and by how long 
-the entire process would take using the classic html, css, and javascript tech stack. I didn't dare delve into react or any javascript framework
-fearing that the learning curve would be too difficult, but realistically I think I just wasn't mature or ambitious enough to learning 
-a front-end framework, which in hindsight, had I decided to put the effort to learn react, would reduce the project time of the portfolio website
-significantly. But thinking back, I just wasn't ready and I guess 3 years later as a college student fresh off of his second year, now I was. 
-I made this website literally in 5 days. Thinking back I projected it to take 2 weeks and it just really proves to me that how much more 
-productive I am when I enjoy the process of creation and building step-by-step. I really do hope to come back to this website and look to add 
-additional features and cleanup some of the little details to further refine my project. But for now I hope you enjoy it! 
-To run the website locally, clone the project:
-Move into the directory of the project 
-Then run 
+# Tyler Tran's Portfolio Website
+
+Welcome to my portfolio website! This website showcases my work and serves as a platform to share my journey as a web developer. 
+
+## Technologies Used
+
+- TypeScript
+- React.js
+- Sass
+- Vercel (for hosting)
+
+## Background
+
+This project began nearly 3 years ago when I first started building websites using HTML, CSS, and a bit of JavaScript. At that time, I had limited knowledge of JavaScript and felt overwhelmed by the possibilities and the time it would take to create a portfolio website using the traditional tech stack.
+
+Initially, I explored different website templates on GitHub and came across the work of Codegrid, a "small YouTuber" who created stunning website designs. I thought it would be easy to create my own websites by leveraging some of the code I found. However, as I delved deeper into the project, I realized the complexity and limitations of my approach.
+
+Back then, I hesitated to venture into frameworks like React or invest time in learning a front-end framework. Looking back, I realize that if I had embraced React earlier, it would have significantly reduced the development time of my portfolio website. However, I now understand that I simply wasn't ready and lacked the necessary maturity and ambition.
+
+Fast forward to the present, as a college student completing my second year, I felt ready to take on the challenge of building my portfolio website. Surprisingly, I completed the project in just 5 days, a fraction of the estimated 2 weeks. This experience taught me the importance of enjoying the creative process and how it enhances productivity.
+
+## Future Plans
+
+While I'm satisfied with the current version of my portfolio website, I plan to continuously improve and refine it. In the future, I intend to add additional features and fine-tune the details to enhance the user experience. This project is a testament to my growth as a developer, and I look forward to expanding and evolving it further.
+
+## Running the Website Locally
+
+To run the website locally, follow these steps:
+
+1. Clone the project to your local machine.
+2. Navigate to the project directory.
+3. Run the following command to install dependencies:
+
+```bash
+npm install
 ```
-npm install 
-```
-Then run 
-```
+
+4. After the installation is complete, run the following command to start the website:
+
+```bash
 npm start
 ```
+
+Enjoy exploring my portfolio website, and thank you for visiting!
+
+---
