@@ -47,9 +47,9 @@ const work_experience = [
         employer: 'Meristream, LLC.',
         date: 'June 2023 - Present',
         description: [
-            '• Co-Founder and the lone Full-Stack Developer for the Meristream web and mobile application.',
-            '• Established an eccommerce service using the Shoppay API and NoSQL database to manage user subscriptions/device logins.',
-            '• Implemented the Front-End Design of the Meristream web application using Next.js, TypeScript, and Sass.',
+            '• Co-Founder and Full-Stack Developer for the Meristream web and mobile application.',
+            '• Established a Subscription as a Service (SaaS) using the Stripe API and Supabase PostgreSQL (Prisma ORM) to manage user subscriptions/device logins.',
+            '• Implemented the Front-End Design of the Meristream Website using Next.js, TypeScript, and Sass.',
             '• Co-assisted my fellow Co-Founder/Composer Aidan Vass, in the development of the Spa Music Algorithm using RNBO software'
         ]
     },
@@ -74,7 +74,7 @@ const project_links = [
         githubURL: 'https://github.com/tylerdtran/meristream',
         websiteURL: 'https://github.com/tylerdtran/meristream',
         image: MeristreamSite,
-        tags: ['Next.js', 'PostgreSQL', 'Prisma ORM', 'React.js', 'Stripe API', 'Supabase']
+        tags: ['Next.js', 'PostgreSQL', 'Prisma ORM', 'Stripe API', 'Supabase']
     },
     {
         name: 'Portfolio Site',
