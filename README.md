@@ -1,6 +1,6 @@
 # Tyler Tran's Portfolio Website
 
-Welcome to my portfolio website! This website showcases my work and serves as a platform to share my journey as a web developer. 
+Welcome to my portfolio website! This website showcases my work and serves as a platform to share my journey as a Software Engineer. 
 
 ## Technologies Used
 
@@ -28,7 +28,13 @@ While I'm satisfied with the current version of my portfolio website, I plan to 
 To run the website locally, follow these steps:
 
 1. Clone the project to your local machine.
+```bash
+git clone https://github.com/tylerdtran/tylertran.me.git
+```
 2. Navigate to the project directory.
+```bash
+cd tylertran.me
+```
 3. Run the following command to install dependencies:
 
 ```bash
