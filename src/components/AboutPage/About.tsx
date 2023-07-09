@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss';
 // import ContactMailOutlinedIcon from '@mui/icons-material/ContactMailOutlined';
 import { Fade, Reveal, Slide } from "react-awesome-reveal";
-// import  ProfilePhoto from '../../images/Profile-Photo.jpeg';
+
 
 export default function About(){
 
@@ -55,11 +55,10 @@ export default function About(){
                             Contact Me
                         </a>
                     </button>
-                    <button className="bg-transparent hover:bg-[#0A192F] text-white font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                        <a href="mailto:tylerduytran@gmail.com" target='_blank' rel="noreferrer">
-                            Resume
-                        </a>
-                    </button>
+                    <a href="/resume.pdf" target='_blank' rel="noreferrer">
+                        <button className="bg-transparent hover:bg-[#0A192F] text-white 
+                        font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Resume</button>
+                    </a>
                 </div>
                 </Slide>
             </div>

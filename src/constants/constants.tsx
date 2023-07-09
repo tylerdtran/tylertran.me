@@ -36,7 +36,7 @@ const network_links = [
     },
     {
         name: 'Facebook',
-        url: 'mailto:tylerduytran@gmail.com'
+        url: 'https://www.facebook.com/tyler.tran.56863'
     }
 ]
 
