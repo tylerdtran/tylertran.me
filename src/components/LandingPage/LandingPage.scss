@@ -4,6 +4,8 @@
     font-family: 'Abhaya Libre', serif;
     font-size: 8em;
     color: black;
+    transition-duration: 1s;
+    // -webkit-background-clip: text;
     @media (max-width: 950px) {
         font-size: 80px;
       }
@@ -16,6 +18,9 @@
         margin-left: 10px;
         font-size: 60px;
       }
+      &:hover {
+        letter-spacing: 10px;
+      }
 
 }
 
@@ -23,6 +28,7 @@
     font-family: 'Belanosima', sans-serif;
     font-size: 5em;
     color: rgba(0, 0, 0, 0.75);
+    transition-duration: 1s;
 
     @media (max-width: 950px) {
         font-size: 50px;
@@ -36,7 +42,9 @@
         margin-left: 10px;
         font-size: 40px;
       }
-
+      &:hover {
+        letter-spacing: 8px;
+      }
 }
 
 .landing-inner-container {
