@@ -47,10 +47,10 @@ const work_experience = [
         employer: 'Meristream, LLC.',
         date: 'June 2023 - Present',
         description: [
-            '• Co-Founder and Full-Stack Developer for the Meristream web and mobile application.',
-            '• Established a Subscription as a Service (SaaS) using the Stripe API and Supabase PostgreSQL (Prisma ORM) to manage user subscriptions/device logins.',
-            '• Implemented the Front-End Design of the Meristream Website using Next.js, TypeScript, and Sass.',
-            '• Co-assisted my fellow Co-Founder/Composer Aidan Vass, in the development of the Spa Music Algorithm using RNBO software'
+            '• Implemented a Software-as-a-Service (SaaS) model for the Meristream web application, a subscription-based platform that provides users access to a meditative music algorithm.',
+            '• Co-designed and implemented the front-end design of the Meristream website, utilizing server-side rendering (SSR) through Next.js to optimize page load times and enhance SEO performance.',
+            '• Leveraged Prisma ORM to efficiently document user data, handle user subscriptions, active device logins, and transaction history, seamlessly integrating with Supabase PostgreSQL Database.',
+            '• Established secure communication between the front-end UI states, Stripe API and Supabase via a self-developed Express.js API with webhooks, ensuring reliable, idempotent operations for secure data transmission.'
         ]
     },
     {
