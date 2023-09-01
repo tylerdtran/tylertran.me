@@ -31,9 +31,14 @@ export default function About(){
                 <div className='about-column-1 general-text font-bold text-xl mb-2'>
                     <Fade direction="up" cascade={true} triggerOnce={true} delay={500}>
                     <p className='text-gray-700 '>
-                    I'm an aspiring Software Engineer hoping to earn some industry experience in the near future. 
+                    I'm an aspiring software engineer hoping to gain further industry experience during my undergraduate education.
                     Currently, I am an incoming third-year undergraduate student at the <a href="https://www.ucla.edu/">University of California, 
-                    Los Angeles </a>pursuing a degree in Computer Science and Linguistics, minoring in Data Science Engineering. 
+                    Los Angeles </a>majoring in Computer Science and Linguistics, minoring in Data Science Engineering. 
+                    <br />
+                    <br />
+                    I previously interned at a startup called Meristream as a Full-Stack Software Engineer Intern. You can see what I accomplished 
+                    during my time at Meristream down below in the Work Experience section. I had such a positive experience at Meristream and I hope to 
+                    use what I learned through Meristream to further my career in Software Engineering as whole. 
                     <br />
                     <br />
                     My main interests in the realm of Computer Science and Software Engineering lie in the fields of 

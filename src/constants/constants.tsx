@@ -42,26 +42,26 @@ const network_links = [
 
 const work_experience = [ 
     {
-        role: 'Co-Founder/Software Engineer',
+        role: 'Full-Stack Software Engineering Intern',
         image: MeristreamLogo,
-        employer: 'Meristream, LLC.',
-        date: 'June 2023 - Present',
+        employer: 'Meristream',
+        date: 'June 2023 - August 2023',
         description: [
-            '• Implemented a Software-as-a-Service (SaaS) model for the Meristream web application, a subscription-based platform that provides users access to a meditative music algorithm.',
-            '• Co-designed and implemented the front-end design of the Meristream website, utilizing server-side rendering (SSR) through Next.js to optimize page load times and enhance SEO performance.',
-            '• Leveraged Prisma ORM to efficiently document user data, handle user subscriptions, active device logins, and transaction history, seamlessly integrating with Supabase PostgreSQL Database.',
+            '• Constructed a scalable database infrastructure to handle over 1 million users of relational data between subscriptions, customers and user transactions.',
+            '• Utilized server-side rendering (SSR) through Next.js to optimize page load times by over 15% and reduce internal memory usage by 23%.',
+            '• Leveraged Prisma Object Relational Mapping to efficiently model user data, handle user subscriptions, active device logins, and transaction history, and to construct relations within the PostgreSQL Database.',
             '• Established secure communication between the front-end UI states, Stripe API and Supabase via a self-developed Express.js API with webhooks, ensuring reliable, idempotent operations for secure data transmission.'
         ]
     },
     {
-        role: 'Front-End Developer',
+        role: 'Software Developer',
         image: TeachLA,
         employer: 'ACM TeachLA @ UCLA', 
         date: 'April 2023 - Present',
         description: [
-            '• Developed engaging web modules about the topic of recursion utilizing Typescript and SCSS to enhance interactive learning experiences for high school students.', 
-            '• Worked under strategic and rigorous sprint plans for both my individual and group projects, ensuring timely completion of tasks.',
-            '• Leveraged git/github for robust pull request monitoring and maintaining code integrity.'
+            '• Created engaging web modules about the topic of recursion utilizing Typescript and SCSS to enhance interactive learning experiences for high school students.', 
+            '• Designed and implemented reusable component modules for demonstrations of factorials and total cost computations and function call stack on the ACM RecursionLab, illustrating recursive problem-solving abilities.',
+            '• Devised a strategic sprint plan for both my individual and group projects; leveraging github for issue announcements, and pull request monitoring.'
         ]
     }
 ]
@@ -71,8 +71,8 @@ const project_links = [
     {
         name: 'Meristream',
         description: 'Meristream is a subscription music streaming service that allows for you to play endlesss streams of sonically rich music at a fraction of the cost of other services.',
-        githubURL: 'https://github.com/tylerdtran/meristream',
-        websiteURL: 'https://github.com/tylerdtran/meristream',
+        githubURL: 'https://www.meristream.com/',
+        websiteURL: 'https://www.meristream.com/',
         image: MeristreamSite,
         tags: ['Next.js', 'PostgreSQL', 'Prisma ORM', 'Stripe API', 'Supabase']
     },
