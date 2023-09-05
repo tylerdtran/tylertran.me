@@ -47,7 +47,7 @@ const work_experience = [
         employer: 'Meristream',
         date: 'June 2023 - August 2023',
         description: [
-            '• Constructed a scalable database infrastructure to handle over 1 million users of relational data between subscriptions, customers and user transactions.',
+            '• Constructed a scalable database infrastructure to handle over 100,000 users of relational data between subscriptions, customers and user transactions.',
             '• Utilized server-side rendering (SSR) through Next.js to optimize page load times by over 15% and reduce internal memory usage by 23%.',
             '• Leveraged Prisma Object Relational Mapping to efficiently model user data, handle user subscriptions, active device logins, and transaction history, and to construct relations within the PostgreSQL Database.',
             '• Established secure communication between the front-end UI states, Stripe API and Supabase via a self-developed Express.js API with webhooks, ensuring reliable, idempotent operations for secure data transmission.'
