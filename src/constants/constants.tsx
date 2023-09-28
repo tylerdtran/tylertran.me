@@ -45,7 +45,7 @@ const work_experience = [
         role: 'Full-Stack Software Engineering Intern',
         image: MeristreamLogo,
         employer: 'Meristream',
-        date: 'June 2023 - August 2023',
+        date: 'June 2023 - September 2023',
         description: [
             '• Constructed a scalable database infrastructure to handle over 100,000 users of relational data between subscriptions, customers and user transactions.',
             '• Utilized server-side rendering (SSR) through Next.js to optimize page load times by over 15% and reduce internal memory usage by 23%.',
