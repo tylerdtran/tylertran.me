@@ -42,7 +42,7 @@ const network_links = [
 
 const work_experience = [ 
     {
-        role: 'Full-Stack Software Engineering Intern',
+        role: 'Software Engineering Intern',
         image: MeristreamLogo,
         employer: 'Meristream',
         date: 'June 2023 - September 2023',
@@ -59,9 +59,9 @@ const work_experience = [
         employer: 'ACM TeachLA @ UCLA', 
         date: 'April 2023 - Present',
         description: [
-            '• Created engaging web modules about the topic of recursion utilizing Typescript and SCSS to enhance interactive learning experiences for high school students.', 
-            '• Designed and implemented reusable component modules for demonstrations of factorials and total cost computations and function call stack on the ACM RecursionLab, illustrating recursive problem-solving abilities.',
-            '• Devised a strategic sprint plan for both my individual and group projects; leveraging github for issue announcements, and pull request monitoring.'
+           '• Created engaging web modules about the topic of recursion utilizing Typescript and SCSS to enhance interactive learning experiences for high school students, using Agile methodologies.',
+           '• Implemented reusable component modules for demonstrations of recursive problem solving methods on the ACM RecursionLab for over 1,000 students to interact with.',
+           '• Resolved major bugs residing in the frontend UI and modularized the existing code base to automatically run extensive linting error checks to reduce compilation bugs.'
         ]
     }
 ]
