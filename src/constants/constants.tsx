@@ -40,7 +40,29 @@ const network_links = [
     }
 ]
 
-const work_experience = [ 
+const work_experience = [
+    {
+        role: 'Software Engineering Intern',
+        image: MeristreamLogo,
+        employer: 'Daily Bruin',
+        date: 'June 2023 - September 2023',
+        description: [
+            '• Implemented an automated data synchronization solution using a CI/CD Pipeline for the Daily Bruin content management system, resulting in a 42% latency reduction for real-time updates and deployment time by 20%.',
+            '• Spearheaded a team in developing an internal sources citation manager for journalists, utilizing MongoDB and Docker containerization to improve accessibility for Daily Bruin Staff to efficiently cite sources up to 30% faster.',
+            '• Deployed and maintained Gallery-maker on Kubernetes, enabling Photo team to publish photo galleries and resolved authentication issue by reconfiguring Django admin access.',
+            ]
+    }, 
+    {
+        role: 'Software Developer',
+        image: TeachLA,
+        employer: 'ACM TeachLA @ UCLA', 
+        date: 'April 2023 - Present',
+        description: [
+           '• Constructed a web-based integrated development environment (IDE) featuring in-browser support for Python, JavaScript, HTML, and React using TypeScript and Go for seamless multi-language coding and development.',
+           '• Implemented reusable component modules for demonstrations of recursive problem solving methods on the ACM RecursionLab for over 1,000 students across Los Angeles high schools to interact with.',
+           '• Debugged critical issues within the front-end UI and restructured the existing codebase to run automated error checks, reducing runtime compilation errors by 26%.'
+        ]
+    },
     {
         role: 'Software Engineering Intern',
         image: MeristreamLogo,
@@ -52,17 +74,6 @@ const work_experience = [
             '• Integrated Prisma Object Relational Mapping to efficiently model: user data, user subscriptions, active device logins, transaction history, and construct relations within the Supabase PostgreSQL Database.',
             '• Established secure communication between front-end UI states, Stripe API and Supabase by developing an Express.js API to ensure reliable, idempotent operations for secure data transmission.',
             '• Configured AWS IoT Device Management services to enforce login restrictions for IoT devices, leveraging selected payment options for enhanced security and access control.'
-        ]
-    },
-    {
-        role: 'Software Developer',
-        image: TeachLA,
-        employer: 'ACM TeachLA @ UCLA', 
-        date: 'April 2023 - Present',
-        description: [
-           '• Constructed a web-based integrated development environment (IDE) featuring in-browser support for Python, JavaScript, HTML, and React using TypeScript and Go for seamless multi-language coding and development.',
-           '• Implemented reusable component modules for demonstrations of recursive problem solving methods on the ACM RecursionLab for over 1,000 students across Los Angeles high schools to interact with.',
-           '• Debugged critical issues within the front-end UI and restructured the existing codebase to run automated error checks, reducing runtime compilation errors by 26%.'
         ]
     }
 ]
