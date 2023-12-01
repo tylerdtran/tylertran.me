@@ -4,6 +4,7 @@ import Retainify from '../images/Retainify-presentation.png';
 import MeristreamSite from '../images/meristream.png';
 import BruinClubSite from '../images/BruinClubSite.png';
 import PortfolioWebsite from '../images/TylerTranWebsite.png';
+import DailyBruinLogo from '../images/dailybruin_logo.png'
 
 // create an array of constants for the navbar
 const navbar_links = [ 
@@ -43,7 +44,7 @@ const network_links = [
 const work_experience = [
     {
         role: 'Software Engineering Intern',
-        image: MeristreamLogo,
+        image: DailyBruinLogo,
         employer: 'Daily Bruin',
         date: 'June 2023 - September 2023',
         description: [
