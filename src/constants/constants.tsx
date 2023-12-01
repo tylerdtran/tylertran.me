@@ -83,7 +83,7 @@ const project_links = [
     {
         name: 'Meristream',
         description: 'Meristream is a subscription music streaming service that allows for you to play endlesss streams of sonically rich music at a fraction of the cost of other services.',
-        githubURL: 'https://www.meristream.com/',
+        githubURL: 'https://github.com/tylerdtran/meristream',
         websiteURL: 'https://www.meristream.com/',
         image: MeristreamSite,
         tags: ['Next.js', 'PostgreSQL', 'Prisma ORM', 'Stripe API', 'Supabase']
