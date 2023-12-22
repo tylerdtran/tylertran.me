@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website! This website showcases my work and serves as a platform to share my journey as a Software Engineer. 
 
+<img src="../src/images/TylerTranWebsite.png" /> 
+
 ## Technologies Used
 
 - TypeScript
