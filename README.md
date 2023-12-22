@@ -4,13 +4,6 @@ Welcome to my portfolio website! This website showcases my work and serves as a 
 
 <img src="./src/images/TylerTranWebsite.png" /> 
 
-## Technologies Used
-
-- TypeScript
-- React.js
-- Sass
-- Vercel (for hosting)
-
 ## Background
 
 This project began nearly 3 years ago when I first started building websites using HTML, CSS, and a bit of JavaScript. At that time, I had limited knowledge of JavaScript and felt overwhelmed by the possibilities and the time it would take to create a portfolio website using the traditional tech stack.
