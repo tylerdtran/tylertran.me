@@ -107,7 +107,7 @@ const project_links = [
         githubURL: 'https://github.com/tylerdtran/little-free-libgen',
         websiteURL: 'https://devpost.com/software/little-free-libgen',
         image: Little_Free_Libgen,
-        tags: ['C++', 'MongoDB', 'React-Native', 'Node.js', 'MongoDB', 'Git']
+        tags: ['C++', 'MongoDB', 'React-Native', 'Node.js', 'Arduino']
     }, 
     {
         name: 'Meristream',
