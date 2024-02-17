@@ -2,12 +2,7 @@
 
 Welcome to my portfolio website! This website showcases my work and serves as a platform to share my journey as a Software Engineer. 
 
-## Technologies Used
-
-- TypeScript
-- React.js
-- Sass
-- Vercel (for hosting)
+<img src="./src/images/TylerTranWebsite.png" /> 
 
 ## Background
 
