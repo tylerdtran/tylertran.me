@@ -1,4 +1,4 @@
-import { Layout, LandingPage, About, Experience, Footer, Projects } from '../../components/exports';
+import { Layout, LandingPage, About, Experience, Footer, Projects, BlogCarousel } from '../../components/exports';
 
 export default function Home() {
     return (
@@ -7,6 +7,7 @@ export default function Home() {
             <About />
             <Experience />
             <Projects />
+            {/* <BlogCarousel /> */}
             <Footer />
         </Layout>
     )

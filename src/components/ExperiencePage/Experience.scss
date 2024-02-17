@@ -216,6 +216,10 @@
             margin: 0px 10px 0px 10px;
             // color: $themeRed;
             font-size: 2em;
+            transition-duration: 1s;
+            &:hover {
+              letter-spacing: 6px;
+            }
             @include title-font;
           }
 

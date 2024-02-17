@@ -6,6 +6,10 @@
 .project-name {
     font-family: 'Abhaya Libre', serif;
     font-size: 4em;
+    transition-duration: 1s;
+    &:hover {
+      letter-spacing: 10px;
+    }
 }
 .project-image {
     width: 100px;

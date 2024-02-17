@@ -33,12 +33,12 @@ export default function About(){
                     <p className='text-gray-700 '>
                     I'm an aspiring software engineer hoping to gain further industry experience during my undergraduate education.
                     Currently, I am an incoming third-year undergraduate student at the <a href="https://www.ucla.edu/">University of California, 
-                    Los Angeles </a>majoring in Computer Science and Linguistics, minoring in Data Science Engineering. 
+                    Los Angeles </a>majoring in Computer Science, minoring in Linguistics. 
                     <br />
                     <br />
-                    I previously interned at a startup called Meristream as a Full-Stack Software Engineer Intern. You can see what I accomplished 
-                    during my time at Meristream down below in the Work Experience section. I had such a positive experience at Meristream and I hope to 
-                    use what I learned through Meristream to further my career in Software Engineering as whole. 
+                    I previously interned at a startup called Meristream as a Full-Stack Software Engineer Intern and 
+                    I'm currently a Software Engineer at the Daily Bruin, the premier student newspaper at UCLA. I currently work on the internal tools team, 
+                    creating meaningful software tools for our journalists and editors to use in their daily work.
                     <br />
                     <br />
                     My main interests in the realm of Computer Science and Software Engineering lie in the fields of 
