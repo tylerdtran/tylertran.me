@@ -48,21 +48,23 @@ const work_experience = [
     {
         role: 'Software Engineering Intern',
         image: NBCUniversalLogo,
-        employer: 'NBCUniversal Media, LLC',
-        date: 'June 2024 - August 2024',
+        employer: 'Comcast - NBCUniversal',
+        date: 'June 2024 - Present',
         description: [
-            '• Incoming Summer Media Tech Intern for the Site Reliability and Automation Team.',
+            '• Migrated the Daisy film inventory platform into 40 AWS EC2 instances using AWS S3, SQS, Lambda functions, and Cloud Formation, saving over $10,000 monthly on in-house hardware infrastructure maintenance',
+            '• Shipped a self-service solution for the ServAuto internal tool, streamlining a time-consuming Ansible execution procedure while providing authentication, tracking, and remote log retention.',
+            '• Expanded Event Management remediation automation by orchestrating infrastructure deployments with Terraform.',
             ]
     }, 
     {
-        role: 'Software Engineering Intern',
+        role: 'Internal Tools Director - Software Engineering Intern',
         image: DailyBruinLogo,
         employer: 'Daily Bruin',
         date: 'October 2023 - Present',
         description: [
-            '• Implemented an automated data synchronization solution using a CI/CD Pipeline for the Daily Bruin content management system, resulting in a 42% latency reduction for real-time updates and deployment time by 20%.',
+            '• Implemented Kubernetes migration for dailybruin.com mainsite to horizontally scale, enabling self-repair and distributed node processes, resulting in over $300 monthly savings on DigitalOcean deployment costs.',
             '• Directed a team in developing an internal sources citation manager for journalists, utilizing MongoDB and Docker containerization to improve accessibility for Daily Bruin Staff to cite sources up to 30% faster.',
-            '• Deployed and maintained Gallery-maker on Kubernetes, enabling Photo team to publish photo galleries and updating the Django model to streamline the relational data modeling.',
+            '• Developed the Gallery-maker tool for the Photo team to publish photo galleries and updated the Django MVC to streamline the relational data modeling.',
             ]
     }, 
     {
@@ -82,7 +84,7 @@ const work_experience = [
         employer: 'Meristream',
         date: 'June 2023 - September 2023',
         description: [
-            '• Implemented a scalable database infrastructure from scratch, tailored to manage relational data across subscriptions, customers, and user transactions, accommodating over 50,000 users.',
+            '• Designed a scaleable database infrastructure to manage relational data across subscriptions, customers, and user transactions, accommodating over 20,000 users.',
             '• Led the complete development cycle of the IoT device login enforcement restriction feature, and configured AWS IoT Device Management services to enhance security for selected payment options and access control.',
             '• Optimized page load times by 15% and reduce internal memory usage by 23% using Next.js server-side rendering.',
             '• Integrated Prisma Object Relational Mapping to efficiently model: user data, user subscriptions, active device logins, transaction history, and construct relations within the Supabase PostgreSQL Database.',
