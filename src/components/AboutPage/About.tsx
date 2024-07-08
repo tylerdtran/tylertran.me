@@ -36,8 +36,8 @@ export default function About(){
                     Los Angeles </a>majoring in Computer Science, minoring in Linguistics. 
                     <br />
                     <br />
-                    I previously interned at a startup called Meristream as a Full-Stack Software Engineer Intern and 
-                    I'm currently a Software Engineer at the Daily Bruin, the premier student newspaper at UCLA. I currently work on the internal tools team, 
+                    I am currently interning at Comcast NBCUniversal as a Software Engineering Intern for the Site Reliability and Automation team.  
+                    I also am the Internal Tools Director/Software Engineer on the internal tools team at the Daily Bruin, the premier student newspaper at UCLA,
                     creating meaningful software tools for our journalists and editors to use in their daily work.
                     <br />
                     <br />
