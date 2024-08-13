@@ -32,21 +32,22 @@ export default function About(){
                     <Fade direction="up" cascade={true} triggerOnce={true} delay={500}>
                     <p className='text-gray-700 '>
                     I'm an aspiring software engineer hoping to gain further industry experience during my undergraduate education.
-                    Currently, I am an incoming third-year undergraduate student at the <a href="https://www.ucla.edu/">University of California, 
-                    Los Angeles </a>majoring in Computer Science, minoring in Linguistics. 
+                    Currently, I am an incoming fourth-year undergraduate student at the <a href="https://www.ucla.edu/">University of California, 
+                    Los Angeles </a>double majoring in Computer Science and Linguistics. 
                     <br />
                     <br />
-                    I am currently interning at Comcast NBCUniversal as a Software Engineering Intern for the Site Reliability and Automation team.  
+                    I am currently interning at Comcast NBCUniversal as a Software Engineering Intern for the Site Reliability and Automation team. 
+                    This Fall I will be interning at Tesla as a Software Engineering Intern for the Cloud Infrastructure team.
                     I also am the Internal Tools Director/Software Engineer on the internal tools team at the Daily Bruin, the premier student newspaper at UCLA,
                     creating meaningful software tools for our journalists and editors to use in their daily work.
                     <br />
                     <br />
                     My main interests in the realm of Computer Science and Software Engineering lie in the fields of 
                     Cloud Computing and Database Systems. My hope is to work somewhere in the intersection between 
-                    software engineering, cloud computing and database systems.
+                    Full-stack Engineering, Cloud Computing and Database Systems.
                     <br />
                     <br />
-                    Aside from Computer Science, I love playing tennis, going on spontaneous adventures, cooking Asian 
+                    In my freetime, I love playing tennis, going on spontaneous adventures, cooking Asian 
                     Food at home, and traveling the world.  I am always looking for new opportunities to learn and grow 
                     not just in my technical skills but also as a person. If you would like to get in touch with me,
                     please feel free to reach out to me via email or connect with me on LinkedIn. 
@@ -54,17 +55,17 @@ export default function About(){
                     </Fade>
                 </div>
                 <Slide direction="up" triggerOnce={true}>
-                <div className='font-bold text-xl mb-2 gap-4 flex space-between'>
-                    <button className=" hover:bg-[#0A192F] text-white font-bold py-2 px-4 border border-blue-500 rounded">
-                        <a href="mailto:tylerduytran@gmail.com" target='_blank' rel="noreferrer">
-                            Contact Me
+                    <div className='font-bold text-xl mb-2 gap-4 flex space-between'>
+                        <button className=" hover:bg-[#0A192F] text-white font-bold py-2 px-4 border border-blue-500 rounded">
+                            <a href="mailto:tylerduytran@gmail.com" target='_blank' rel="noreferrer">
+                                Contact Me
+                            </a>
+                        </button>
+                        <a href="/resume.pdf" target='_blank' rel="noreferrer">
+                            <button className="bg-transparent hover:bg-[#0A192F] text-white 
+                            font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Resume</button>
                         </a>
-                    </button>
-                    <a href="/resume.pdf" target='_blank' rel="noreferrer">
-                        <button className="bg-transparent hover:bg-[#0A192F] text-white 
-                        font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Resume</button>
-                    </a>
-                </div>
+                    </div>
                 </Slide>
             </div>
         </div>

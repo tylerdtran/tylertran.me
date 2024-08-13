@@ -6,6 +6,7 @@ import BruinClubSite from '../images/BruinClubSite.png';
 import PortfolioWebsite from '../images/TylerTranWebsite.png';
 import DailyBruinLogo from '../images/dailybruin_logo.png'
 import NBCUniversalLogo from '../images/NBCUniversal_logo.jpeg'
+import TeslaLogo from '../images/Tesla_logo.png'
 import Little_Free_Libgen from '../images/Little_Free_Libgen.png'
 import ColorCue from '../images/ColorCue.png'
 
@@ -47,9 +48,18 @@ const network_links = [
 const work_experience = [
     {
         role: 'Software Engineering Intern',
+        image: TeslaLogo,
+        employer: 'Tesla',
+        date: 'September 2024 - Present',
+        description: [
+            '• working for the Linux SRE team at Tesla, I am responsible for maintaining and scaling the infrastructure that supports the Tesla internal cloud platform.'
+            ]
+    }, 
+    {
+        role: 'Software Engineering Intern',
         image: NBCUniversalLogo,
         employer: 'Comcast - NBCUniversal',
-        date: 'June 2024 - Present',
+        date: 'June 2024 - August 2024',
         description: [
             '• Migrated the Daisy film inventory platform into 40 AWS EC2 instances using AWS S3, SQS, Lambda functions, and Cloud Formation, saving over $10,000 monthly on in-house hardware infrastructure maintenance',
             '• Shipped a self-service solution for the ServAuto internal tool, streamlining a time-consuming Ansible execution procedure while providing authentication, tracking, and remote log retention.',
