@@ -111,7 +111,7 @@ const project_links = [
         githubURL: 'https://github.com/johnhoffm/ColorCue',
         websiteURL: 'https://devpost.com/software/colorcue',
         image: ColorCue,
-        tags: ['JavaScript', 'TypeScript', 'CSS']
+        tags: ['JavaScript', 'HTML', 'CSS']
     }, 
     {
         name: 'Little Free Library',
