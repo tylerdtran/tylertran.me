@@ -36,8 +36,8 @@ export default function About(){
                     Los Angeles </a>double majoring in Computer Science and Linguistics. 
                     <br />
                     <br />
-                    I am currently interning at Comcast NBCUniversal as a Software Engineering Intern for the Site Reliability and Automation team. 
-                    This Fall I will be interning at Tesla as a Software Engineering Intern for the Cloud Infrastructure team.
+                    This Fall I am interning at Tesla as a Software Engineering Intern for the Cloud Infrastructure team. 
+                    I am previously interned at Comcast NBCUniversal as a Software Engineering Intern for the Site Reliability and Automation team.
                     I also am the Internal Tools Director/Software Engineer on the internal tools team at the Daily Bruin, the premier student newspaper at UCLA,
                     creating meaningful software tools for our journalists and editors to use in their daily work.
                     <br />
