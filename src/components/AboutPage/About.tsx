@@ -7,7 +7,7 @@ import { Fade, Reveal, Slide } from "react-awesome-reveal";
 export default function About(){
 
     return (
-        <div id="About" className="lg:h-screen flex flex-col justify-center items-center md:h-min ">
+        <div id="About" className=" flex flex-col justify-center items-center md:h-min ">
            
             <div className="about-components flex flex-col items-center w-5/6 md:w-3/6 ">
                 <Reveal triggerOnce={true}>
