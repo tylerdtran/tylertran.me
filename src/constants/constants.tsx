@@ -52,7 +52,7 @@ const work_experience = [
         employer: 'Tesla',
         date: 'September 2024 - Present',
         description: [
-            '• working for the Linux SRE team at Tesla, I am responsible for maintaining and scaling the infrastructure that supports the Tesla internal cloud platform.'
+            '• Working for the Linux SRE team at Tesla, I am responsible for maintaining and scaling the infrastructure that supports the Tesla internal cloud platform.' 
             ]
     }, 
     {
