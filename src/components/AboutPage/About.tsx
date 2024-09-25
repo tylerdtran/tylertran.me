@@ -7,7 +7,7 @@ import { Fade, Reveal, Slide } from "react-awesome-reveal";
 export default function About(){
 
     return (
-        <div id="About" className="lg:h-screen flex flex-col justify-center items-center md:h-min ">
+        <div id="About" className=" flex flex-col justify-center items-center md:h-min ">
            
             <div className="about-components flex flex-col items-center w-5/6 md:w-3/6 ">
                 <Reveal triggerOnce={true}>
@@ -36,10 +36,17 @@ export default function About(){
                     Los Angeles </a>double majoring in Computer Science and Linguistics. 
                     <br />
                     <br />
+<<<<<<< HEAD
                     This Fall I am interning at Tesla as a Software Engineering Intern for the Linux Infrastructure team, focusing on both Linux Server 
                     provisioning and application development of internal tools. I previously interned at Comcast NBCUniversal as a Software Engineering
                     Intern for the Site Reliability and Automation team. I also am the Internal Tools Director/Software Engineer on the internal tools team 
                     at the Daily Bruin, the premier student newspaper at UCLA, maintaining and developing software tools for our journalists and editors. 
+=======
+                    This Fall I am interning at Tesla as a Software Engineering Intern for the Cloud Infrastructure team. 
+                    I am previously interned at Comcast NBCUniversal as a Software Engineering Intern for the Site Reliability and Automation team.
+                    I also am the Internal Tools Director/Software Engineer on the internal tools team at the Daily Bruin, the premier student newspaper at UCLA,
+                    creating meaningful software tools for our journalists and editors to use in their daily work.
+>>>>>>> b6f0da499a27eee737c4768aeab6e574c956d936
                     <br />
                     <br />
                     My main interests in the realm of Computer Science and Software Engineering lie in the fields of 
