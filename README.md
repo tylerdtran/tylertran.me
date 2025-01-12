@@ -16,7 +16,7 @@ Fast forward to the present, as a college student completing my second year, I f
 
 ## Future Plans
 
-While I'm satisfied with the current version of my portfolio website, I plan to continuously improve and refine it. In the future, I intend to add additional features and fine-tune the details to enhance the user experience. This project is a testament to my growth as a developer, and I look forward to expanding and evolving it further.
+While I'm satisfied with the current version of my portfolio website, I plan to continuously improve and refine it. In the future, I intend to add additional features and fine-tune the details to enhance the user experience. This project is a testament to my growth as a developer, and I look forward to expanding and evolving it further. Also looking to add a photo of myself on the About page. 
 
 ## Running the Website Locally
 
