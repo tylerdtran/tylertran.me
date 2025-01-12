@@ -52,14 +52,10 @@ const work_experience = [
         employer: 'Tesla',
         date: 'September 2024 - Present',
         description: [
-<<<<<<< HEAD
             '• Developed a frontend application with TypeScript/React(Next.js) to simplify access to Linux team services with RBAC API endpoints, implementing Redis caching, and servicing over 200+ internal users and 1000+ API requests per day',
             '• Created 15 Go-based REST API endpoints for Puppet and Teleport services, integrating backend authentication with Azure AD and hosting the API server on Kubernetes, resulting in a 20% increase in API response efficiency.',
             '• Reduced manual ansible deployments by 70% by automating a static Prometheus server monitoring inventory, scheduling CRON jobs on exporters to scrape from Postgres database, and developing a UI to manage server monitoring.',
             '• Implemented an Apache Airflow DAG with Python to service an ETL pipeline to onboard server data onto a MySQL database, configuring the Jenkins pipeline to perform regular CI/CD checks upon deployment.',
-=======
-            '• Working for the Linux SRE team at Tesla, I am responsible for maintaining and scaling the infrastructure that supports the Tesla internal cloud platform.' 
->>>>>>> 9b6e78a6526d431b6c4e06091c04615035dec17d
             ]
     }, 
     {
